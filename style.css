@@ -1,0 +1,530 @@
+/*======================================================
+        DEFAULT VALUES:
+
+        font-family: "PT Sans Narrow", sans-serif
+        #176A76:      buttons, icons, links, lines and backgrounds
+        #41461b:      Heading
+        #64707b:      paragraphs
+        #fff:         text with blackground
+        #000:         
+======================================================== */
+
+:root {
+    --primary-color: rgb(0, 128, 117);
+    --primary-color-hover: #848d94;
+    --secondary-color: #103063;
+    --secondary-color-hover: #143f85;
+    --light-color: #f4f4f4;
+}
+
+/* General CSS*/
+html, body {
+    height: 100%;
+}
+body {
+    font-family: "PT Sans Narrow", sans-serif;
+    margin: 0px;
+}
+
+/*======================================================
+                    NAVIGATION
+======================================================*/
+.navbar {
+    padding-bottom:0px; 
+}
+.square-top-nav{
+    background:#fff;
+    opacity: .97;
+}
+.square-navbar-wrapper{
+    padding: 0px 85px;
+}
+.navbar-nav{
+    float: right;
+}
+.navbar-nav >li >a{
+    text-transform: uppercase;
+    color: #000;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size:17px;
+}
+.navbar-nav >li >a:hover, .navbar-nav >li >a:focus{
+    background: none;
+    color: rgb(0, 128, 117); 
+}
+.navbar-toggle{
+    background: #fff;
+    border-radius: 0;
+     
+}
+.navbar-toggle .icon-bar{
+    background: black;
+}
+.square-top-nav ul.navbar-nav > li.active > a {
+    color: rgb(0, 128, 117); 
+}
+.navbar-brand{
+    padding: 0px;
+}
+
+
+/*======================================================
+                    Generic Content
+======================================================*/
+.content-box{
+    padding: 50px 0px 30px 0px;
+}
+.content-title h2{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+    text-transform: uppercase;
+}
+.content-title-underline{
+    width: 50px;
+    height: 8px;
+    background-color: rgb(0, 128, 117);
+    margin: 0 auto 45px auto;
+}
+.subtitle-underline{
+    width: 50px;
+    height: 3px;
+    background-color: rgb(0, 128, 117);
+    margin: 0 auto 25px auto;
+}
+#quotes {
+background-color:#333;
+color: #fff;
+}
+
+
+/*======================================================
+                    Generic parallax effect
+======================================================*/
+.bg-parallax {
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+/*======================================================
+                    Generic Button style
+======================================================*/
+.btn-primary {
+    background: var(--primary-color);
+    border-color: #fff;
+    border-radius: 0px;
+    border-width: 2px;
+    padding: 12px 26px 12px 26px;
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    
+  }
+  
+  .btn-primary:hover {
+    background: var(--primary-color-hover);
+    color:  #41461b;
+  }
+
+  
+
+/*======================================================
+                    Animation
+======================================================*/
+#home-heading{
+    animation-delay: .5s;
+    animation-duration: .5s;  
+}
+#home-btn{
+    animation-delay: 1s;
+    animation-duration: .5s;
+}
+
+
+/*======================================================
+                    HOME
+======================================================*/
+
+#home {
+    height: 100%;
+}
+#home-cover {
+    background: url(../image/classroom5.jpg);
+    height: 100%;
+    background-repeat: none;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#home-content {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+#home-content-inner {
+    display: table-cell;
+    vertical-align: middle;
+    /*text-align: center;*/
+}
+#home-heading h1, #home-heading h3{
+    text-transform: uppercase;
+    margin: 20px 0px 20px 0px;
+}
+#home-heading h1, #home-heading h3{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+}
+#home-heading > h3{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+/*======================================================
+                    ABOUT
+======================================================*/
+#about{
+    padding-top: 5px
+}
+#description{
+    padding: 20px;
+    
+}
+#description h2{
+    font-size: 25px;
+    font-weight: 700;
+}
+#description p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 2.0;
+    padding-top: 0px;
+    text-align: center;
+}
+
+/*======================================================
+                    COURSES
+======================================================*/
+#courses{
+    padding-top: 0px;
+}
+blockquote{
+    border-left:8px solid rgb(73, 60, 114);
+  }
+  #courses i{
+      color:   rgb(0, 128, 117);
+  }
+#course-cover{
+    background-color: #333333
+}
+#courses h1{
+    font-weight: 400;
+    color: #fff
+}
+#courses .lead h2 h1{
+    color: #fff; 
+}
+#course-cover{
+    color: #fff;  
+}
+.course-item{
+    padding: 0px 10px 0px 10px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    
+    
+}
+.course-item-icon{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.course-item-icon i{
+    font-size: 80px; 
+    text-align: center;
+}
+.course-item-title{
+    text-align: center;
+   
+}
+.course-item-title h3{
+    font-size: 27px;
+}
+.course-item-description p{
+    font-size: 17px;
+    color:#bec6cc;
+    line-height: 1.2
+}
+.course-item-description a{
+    background-color:rgb(0, 128, 117);
+    padding: 5px;
+    color:#fff;
+    font-size: 18px;
+    margin-top: 0px;
+    text-transform: uppercase;
+}
+.course-item-description a:hover{
+    background-color: #fff;
+    color: #444; 
+}
+
+
+
+/*======================================================
+                    CONTACT
+======================================================*/
+.partner{
+    padding: 40px 10px;
+}
+
+/*======================================================
+                    CONTACT
+======================================================*/
+footer{
+    background-color: #41464b;
+    padding: 40px 30px 30px 0px;
+    border-top: 3px solid rgb(0, 128, 117);
+}
+#contact-left p{
+    color: #fff;
+    padding: 25px px;
+}
+
+#contact-left strong, #phone-email strong{
+    letter-spacing: px;
+    color: #fff;
+    padding-left: 0px;
+}
+#social-list{
+    padding-left: 0px;
+}
+#social-list li{
+    list-style: none;
+    display: inline;
+    letter-spacing: 15px;
+    
+}
+#social-list i{
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+#social-list i:hover{
+    color: #34c6d3;
+}
+#contact-left img{
+    margin-bottom: 20px;
+}
+#contact-right h3{
+    font-size: 27px;
+    font-weight: 700;
+    color: #fff;
+}
+form .form-control{
+    background: transparent;
+    border-radius: 0px;
+    font-size: 17px;
+    border-color: #fff;
+    font-weight: 300;
+    padding: 8px 16px;
+    margin: 20px;
+    color: #fff;
+    overflow: hidden;
+
+}
+input{
+    max-width: 100%;
+}
+.add-hover:hover{
+    background-color: gray;
+}
+
+/*======================================================
+                    Footer
+======================================================*/
+#footer-bottom{
+    background-color: rgb(0,0,0,0.1);
+    padding: 30px 0;
+    margin-top: 30px;
+}
+#footer-copyrights p{
+    margin: 0;
+    color: #fff;
+}
+#footer-menu{
+   float: left;
+   font-weight: normal;
+   font-size: 16px;
+   color: #fff; 
+}
+#footer-menu ul{
+    list-style: none;
+    padding-left: 0px;
+    margin: 0;
+}
+#footer-menu ul li{
+    display: inline-block;
+}
+#footer-menu a{
+    color: #fff;
+    font-size: 16px;
+    margin: 0px 10px;
+    text-decoration: none;
+}
+#footer-menu a:hover{
+    color: rgb(0, 128, 117);
+}
+
+    
+
+
+
+
+
+/*======================================================
+                    CODE.HTML
+======================================================*/
+#hero-cover {
+    background: url(../image/code1.jpg);
+    height: 100%;
+    background-repeat: none;
+    background-size: cover;
+}
+
+/*======================================================
+                    MARKETING.HTML
+======================================================*/
+#hero-cover1{
+    background: url(../image/digital-marketing1.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/*======================================================
+                    ICT Fundamental.HTML
+======================================================*/
+#hero-cover1{
+    background: url(../image/windows-icon1.jpg);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+/*======================================================
+                    Generic pages layout
+======================================================*/
+
+/*HEADER SECTION*/
+#hero {
+    height: 100vh;
+}
+
+#hero-content {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+#hero-content-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+#hero-heading h1, #hero-heading h3{
+    text-transform: uppercase;
+    margin: 20px 0px 20px 0px;
+}
+#hero-heading h1, #hero-heading h3{
+    color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+}
+#hero-heading > h3{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+}
+#hero-heading i{
+    font-size: 150px;
+    color: rgb(0, 128, 117);
+    border-radius: 50%;
+    margin: 20px;
+}
+
+
+/*overview section*/
+#course-overwiew-description p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.8;
+    padding-top: 0px;
+}
+
+/*outline section*/
+#outline{
+    background-color: #444;
+    color: #fff;
+    padding-top: 40px
+}
+#course-description h2{
+    font-weight: 700;
+}
+#course-description h3{
+    text-transform: capitalize;
+    font-weight: 700;
+}
+#course-description li, #course-description p{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.8;
+    padding-top: 0px; 
+}
+#course-description li{
+    list-style: square;
+}
+
+/*stat section*/
+.stats-icon i{
+    color: rgb(0, 128, 117);
+}
+.stats-icon h2{
+    font-weight: 700;
+    font-size: 25px;
+}
+.stats-icon h4{
+    font-weight: 700;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

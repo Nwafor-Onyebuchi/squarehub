@@ -1,0 +1,152 @@
+ 
+/*large-devices (desktops and laptops)*/
+@media(min-width: 1200px){
+    #show-small{
+        display: none;
+    }
+}
+
+/*medium-devices (desktops and laptops)*/
+@media(min-width: 992px) and (max-width: 1199px){
+    /*mobile menu*/
+    .navbar{
+        
+        padding: 0px
+    }
+    
+    .navbar-nav{
+        float: left;
+    }
+    .square-navbar-wrapper{
+        padding: 0px;
+    }
+    #show-small{
+        display: none;
+    }
+    
+}
+/*small-device*/
+@media(min-width: 767px) and (max-width: 991px){
+    .navbar{
+        
+        padding: 0px
+    }
+    
+    .navbar-nav{
+        float: left;
+    }
+    .square-navbar-wrapper{
+        padding: 0px;
+        margin-bottom: 20px;;
+    }
+    #show-small{
+        display: none;
+    } 
+    .stats-icon i{
+        color: rgb(0, 128, 117);
+    }
+    .stats-icon h2{
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .stats-icon h4{
+        font-weight: 700;
+        font-size: 15px;
+    }
+
+    #footer-menu{
+        display: none;
+    }
+    
+
+    
+   
+}
+/* extra-small-device*/
+@media(max-width: 768px){
+    
+    .navbar{
+        
+        padding: 0px;
+    }
+   
+    .navbar-nav{
+        float: left;
+    }
+    .square-navbar-wrapper{
+        padding: 0px;
+    }
+    #home {
+        height: 100%;
+    }
+    #home-heading h1 {
+        color: #fff;
+        font-size: 45px;
+        font-weight: 700;
+    }
+    #home-heading h3{
+        color: #fff;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    #home-btn{
+        margin-top: 100px;
+    }
+    #ad img{
+        border-radius: 50%;
+    }
+    #hide-small{
+        display: none;
+    }
+    #hero h1{
+        font-size: 50px;
+    }
+    #hero-heading i{
+        font-size: 80px;
+        color: rgb(0, 128, 117);
+        border-radius: 50%;
+        margin: 20px;
+    }
+    .stats-icon i{
+        color: rgb(0, 128, 117);
+    }
+    .stats-icon h2{
+        font-weight: 700;
+        font-size: 18px;
+    }
+    .stats-icon h4{
+        font-weight: 700;
+        font-size: 15px;
+    }
+    .course-item-description a{
+        padding: 15px;
+        border-radius: 0px;
+    }
+    .course-item-description p{
+        margin-bottom: 30px;
+    }
+    #home-cover {
+        background: url(../image/girl-code1.jpg);
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    blockquote{
+        border-left:4px solid #fff;
+
+}
+
+#footer-menu{
+    display: none;
+}
+
+/* extra-small-device*/
+@media(max-width: 480px){
+   
+}
+/* extra-small-device*/
+@media(max-width: 320px){
+    
+}
