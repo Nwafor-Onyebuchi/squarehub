@@ -151,7 +151,7 @@ color: #fff;
     height: 100%;
 }
 #home-cover {
-    background: url(../image/classroom5.jpg);
+    background: url(classroom5.jpg);
     height: 100%;
     background-repeat: none;
     background-size: cover;
@@ -386,7 +386,7 @@ input{
                     CODE.HTML
 ======================================================*/
 #hero-cover {
-    background: url(../image/code1.jpg);
+    background: url(code1.jpg);
     height: 100%;
     background-repeat: none;
     background-size: cover;
@@ -396,7 +396,7 @@ input{
                     MARKETING.HTML
 ======================================================*/
 #hero-cover1{
-    background: url(../image/digital-marketing1.jpg);
+    background: url(digital-marketing1.jpg);
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -407,7 +407,7 @@ input{
                     ICT Fundamental.HTML
 ======================================================*/
 #hero-cover1{
-    background: url(../image/windows-icon1.jpg);
+    background: url(windows-icon1.jpg);
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
